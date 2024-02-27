@@ -1,5 +1,8 @@
+import { urlFor } from "@/app/lib/sanity"
+import { images } from "@/next.config"
 import Image from "next/image"
 import Link from "next/link"
+import heroBike from '../assets/bike.png';
 
 const Hero = () => {
   return (
@@ -27,8 +30,8 @@ const Hero = () => {
                 {/* img */}
                 <div className="hidden xl:flex">
                     <Image 
-                        src='/assets/bike.png' width={765} 
-                        height={480} 
+                        src={heroBike.src} width={760} 
+                        height={580} 
                         alt="image-can't-be'loaded"
                         quality={100}
                     />
