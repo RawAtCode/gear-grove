@@ -1,7 +1,7 @@
 'use client';
 import Link from "next/link";
 import Nav from "./Nav";
-import CartSideBar from "./CartSideBar";
+import CartSideBar from "./CartSidebar";
 
 import { CgShoppingBag } from "react-icons/cg";
 import { useShoppingCart } from "use-shopping-cart";
