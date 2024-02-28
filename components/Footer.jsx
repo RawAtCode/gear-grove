@@ -44,7 +44,6 @@ const Footer = () => {
               <RiPinterestFill />
             </Link>
           </div>
-          <p className="text-white/70 mb-1">&#169; 2024</p>
         </div>
       </div>
       {/* copyright */}
