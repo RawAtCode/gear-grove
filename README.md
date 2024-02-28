@@ -12,7 +12,7 @@ GearGrove is an e-commerce platform for bike enthusiasts, offering a curated sel
 
 ## Live Demo
 
-Check out the live demo: [GearGrove Live Demo](https://your-project-name.vercel.app](https://geargrove.vercel.app/))
+Check out the live demo: [GearGrove Live Demo](https://geargrove.vercel.app/))
 
 ## Technologies Used
 
