@@ -27,7 +27,6 @@ const PopularBikes = async () => {
                 <h2 className="text-center">Most Popular Bikes</h2>
                 <p className="text-center mb-[30px]">The World's Premium Brands In One Destination.</p>
                 <PopularBikeCarousel bikes={bikes} />
-                <div>Carousel</div>
                 <Link href='/our-bikes'>
                     <button className="btn btn-accent mx-auto">See all bikes</button>
                 </Link>
