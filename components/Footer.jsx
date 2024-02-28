@@ -49,6 +49,7 @@ const Footer = () => {
       </div>
       {/* copyright */}
       <div className="py-6 border-t border-white/5 text-white/60">
+        Copyright &copy; 2024 GearGrove. All rights reserved.
         <p className="text-white/50">Developed by <a href="https://github.com/RawAtCode" target='_blank'>RawAtCode</a></p>
       </div>
     </footer>

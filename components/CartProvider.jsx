@@ -8,8 +8,8 @@ const CartProvider = ({children}) => {
     mode="payment" 
     cartMode="client-only" 
     stripe={process.env.NEXT_PUBLIC_STRIPE_KEY}
-    successUrl="http://localhost:3000/stripe/success"
-    cancelUrl="http://localhost:3000/stripe/error"
+    successUrl="https://geargrove.vercel.app/stripe/success"
+    cancelUrl="https://geargrove.vercel.app/stripe/error"
     language="en-US"
     currency="INR"
     billingAddressCollection={true}
