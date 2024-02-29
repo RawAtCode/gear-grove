@@ -24,7 +24,7 @@ const BikeCategories = ({bikes}) => {
     }, [category, price, bikes]);
 
   return (
-    <section className='min-h-[1200px] py-10'>
+    <section className='min-h-[1200px] py-1'>
         <div className="container mx-auto">
             <div className="flex flex-col">
                 {/* sidebar */}

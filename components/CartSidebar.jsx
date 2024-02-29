@@ -32,7 +32,7 @@ const CartSideBar = () => {
                         <h5 className='text-black/50'>Your cart is empty</h5>
                     </div>
                 ) : (
-                <ScrollArea className='h-[70vh] xl:h-[74vh] pr-4 mb-4'>
+                <ScrollArea className='h-[70vh] xl:h-[74vh] pr-4 mb-4 overflow-y-auto'>
                     {cartDetails && Object.entries(cartDetails).map(([key, item]) => {
                         return <CartItem item={item} key={key} />;
                     })}
